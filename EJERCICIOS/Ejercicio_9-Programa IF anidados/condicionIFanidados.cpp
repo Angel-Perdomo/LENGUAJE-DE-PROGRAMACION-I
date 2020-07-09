@@ -46,6 +46,6 @@ int main(int argc, char const *argv[])
     cout << "---------------------------------";
     
 
-
+    system("pause");
     return 0;
 }
