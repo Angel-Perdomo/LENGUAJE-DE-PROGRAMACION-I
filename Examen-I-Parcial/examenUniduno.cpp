@@ -74,7 +74,7 @@ int main() {
         int ciclos = 0;
  
 
-        while (ciclos < 11) {
+        while (ciclos < 80) {
             
             int i = 0;
             
@@ -105,13 +105,20 @@ int main() {
             ciclos++;
         }
         system("COLOR 04");
+
+        cout << endl;
+        cout << endl;
         cout << "*** EL SISTEMA FALLO***";
+        cout << endl;
+        cout << endl;
         
     } else
     {
+      
         cout << endl;
         cout << "acceso a la matrix denegado";
         cout << endl;
+        
     }
     
      
