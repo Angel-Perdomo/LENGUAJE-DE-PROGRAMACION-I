@@ -63,9 +63,8 @@ int main() {
         }       
  
         
-    } else if (contrasena == "neo")
-    {
-        
+    } else if (contrasena == "neo"){
+        system("COLOR 02");
 
         char caRow[80];
         int j = 7;
@@ -76,7 +75,7 @@ int main() {
  
 
         while (ciclos < 11) {
-            system("COLOR 04");
+            
             int i = 0;
             
             // caracteres aleatorios
@@ -103,9 +102,10 @@ int main() {
                  ++i;
             }
             
-            cout << "*** EL SISTEMA FALLO***";
             ciclos++;
         }
+        system("COLOR 04");
+        cout << "*** EL SISTEMA FALLO***";
         
     } else
     {
