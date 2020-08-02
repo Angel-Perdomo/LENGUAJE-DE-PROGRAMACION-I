@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     numero = rand() % 100 + 1;
 
     cout << endl;
-    cout << "Primer numero al azar: " << numero;
+    cout << "Numero al azar: " << numero;
     cout << endl;
     }
     
