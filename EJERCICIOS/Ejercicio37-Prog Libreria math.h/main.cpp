@@ -26,6 +26,7 @@ int main(int argc, char const *argv[])
     cout << "Tangente: " << tangente;
     cout << endl;
 
+
     system("pause");
     return 0;
 }
