@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
             numeroRando = rand() % 1000 + 1;
             sumarMatriz[i][j] = numeroRando;
             numeroRando = 0;
-            cout << "|"<<sumarMatriz[i][j]<<"|" << " ";
+            cout << " " << "|"<<sumarMatriz[i][j]<<"|" << " ";
         }
         cout << endl;
     }
