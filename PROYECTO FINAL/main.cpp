@@ -38,7 +38,7 @@ int opcion = 0;
 
     cout << endl;
     cout << "1 - Un jugador" << endl;
-    cout << "2 - Dos jugadores" << endl;
+    cout << "2 - Varios jugadores" << endl;
     cout << "0 - Salir del juego" << endl;
     cout << endl;
     cout << "SELECCIONE UN MODO DE JUEGO: ";
@@ -127,6 +127,7 @@ int opcion = 0;
     cout << "Ingrese el numero de participantes: ";
     cin >> numDeJugadores;
     cout << endl;
+    
     
    //**JUEGO
    

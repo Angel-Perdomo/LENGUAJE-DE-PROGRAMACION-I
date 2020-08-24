@@ -56,6 +56,7 @@ int cuestionario()
         cin >> p1;
         if (p1 == 'a' || p1 == 'A')
         {n1 = 85;} else{n1 = 0;}
+        if (p1 !=' ')        
         while(!comprobarLetra(p1))
 		        {        	
 		        	//borrar(14, 24);
@@ -351,7 +352,7 @@ int cuestionario()
     //---------------------------------------------------------
         system("COLOR 6");
         system("cls");
-        puntajeMaximo = n1+n2+n3+n4+n5+n6+n7+n8+n9+n10+n11+n12;
+        puntajeMaximo = n1+n2+n3+n4+n5+n6+n7+n8+n9+n10+n11+n12+n12+n13+n14+n15;
         cout << endl;
         cout << "Tu puntaje maximo es: " << puntajeMaximo << endl;
         //cout << endl;
